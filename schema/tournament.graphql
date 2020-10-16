@@ -77,6 +77,9 @@ type Tournament {
   info: String
 }
 
+"""
+Docs group: Tournament
+"""
 enum TournamentAudience {
   elementary_school
   middle_school
@@ -87,6 +90,9 @@ enum TournamentAudience {
   other
 }
 
+"""
+Docs group: Tournament
+"""
 enum TournamentLevel {
   novice
   regular
@@ -94,6 +100,9 @@ enum TournamentLevel {
   other
 }
 
+"""
+Docs group: Tournament
+"""
 enum TournamentContent {
   general_academic
   specialized_academic

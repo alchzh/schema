@@ -375,6 +375,9 @@ type Lineup {
   reason: LineupReason!
 }
 
+"""
+Docs group: Match
+"""
 enum LineupReason {
   initial
   own_timeout
